@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grim Store | Online Shopping</title>
+  <link rel="stylesheet" href="shop.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="store-logo.png">
+</head>
+
+<body>
+  <!-- ===== Header / Navigation ===== -->
+  <header>
+    <nav>
+      <h1 class="logo">Grim Store</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Dark Mode Toggle -->
+      <button id="theme-toggle" aria-label="Toggle Dark Mode">
+        <svg class="icon sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12 18a6 6 0 100-12 6 6 0 000 12z" />
+          <path fill="currentColor"
+            d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+        </svg>
+        <svg class="icon moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="home" class="hero" data-aos="fade-up">
+    <div class="hero-content">
+      <h2>Welcome to <span>Grim Store</span></h2>
+      <p>Discover trendy fashion, gadgets, and accessories — all in one place.</p>
+      <a href="#shop" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- ===== Shop Section ===== -->
+  <section id="shop" class="shop" data-aos="zoom-in-up">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card" data-aos="fade-up">
+        <img src="pro2.avif" alt="Product 1">
+        <h3>Wireless Headphones</h3>
+        <p>$59.99</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <!-- Product 2 -->
+      <div class="product-card" data-aos="fade-up" data-aos-delay="150">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYC7tmgRg-TfeK14M8I3zn-MeA5cpwqQuT1w&s"
+          alt="Product 2">
+        <h3>Smart Watch</h3>
+        <p>$89.99</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <!-- Product 3 -->
+      <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL4ef6UGExZwtuF1ydsN8rvS_pZYi6B07jAw&s"
+          alt="Product 3">
+        <h3>Classic Sneakers</h3>
+        <p>$49.99</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <!-- Product 4 -->
+      <div class="product-card" data-aos="fade-up" data-aos-delay="450">
+        <img src="photo-1494891848038-7bd202a2afeb.avif" alt="Product 4">
+        <h3>Leather Backpack</h3>
+        <p>$79.99</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="about" data-aos="fade-right">
+    <h2>About Us</h2>
+    <p>
+      At <strong>Grim Store</strong>, we believe shopping should be fun, easy, and affordable.
+      Our mission is to bring you the latest trends and best deals from trusted brands.
+    </p>
+    <ul class="features">
+      <li>✅ Fast Delivery</li>
+      <li>💳 Secure Payment</li>
+      <li>📦 Easy Returns</li>
+      <li>⭐ Top-rated Products</li>
+    </ul>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>Have questions or feedback? Get in touch with us below!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 Grim Store. All rights reserved.</p>
+    <div class="socials">
+      <a href="#">Facebook</a>
+      <a href="https://www.instagram.com/grim_web?igsh=MW5tbzQyMXZ2ZHJ0MA==">Instagram</a>
+      <a href="https://github.com/Dank-web">Github</a>
+      <a href="https://discord.gg/rDPbVWnV">Discord</a>
+    </div>
+  </footer>
+
+  <!-- ===== Scripts ===== -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="shop.js"></script>
+</body>
+
+</html>
